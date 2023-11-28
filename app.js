@@ -1,5 +1,5 @@
 let listaDeNumeros = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroDeElementosNaLista = listaDeNumeros.length;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
@@ -54,7 +54,7 @@ function limparCampo() {
 }
 
 function reiniciarJogo() {
-    numeroSecreto = gerarNumeroAleatorio();
+    numeroSecreto = gerarNumeroAleatorio();cd 
     limparCampo();
     tentativas = 1;
     exibirMensagemInicial();
