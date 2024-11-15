@@ -20,7 +20,11 @@ function adicionar() {
 }
 
 function limpar() {
-
+    let carrinho = document.getElementById('lista-produtos');
+    carrinho.innerHTML = '';
+    let valorTotal = document.getElementById('valor-total');
+    valorTotal.innerHTML = 'R$0';
+    valorCarrinho = 0;
 }
 
 
