@@ -26,11 +26,3 @@ function limpar() {
     valorTotal.innerHTML = 'R$0';
     valorCarrinho = 0;
 }
-
-
-
-
-
-{/* <section class="carrinho__produtos__produto">
-    <span class="texto-azul">1x</span> Celular <span class="texto-azul">R$1400</span>
-</section> */}
